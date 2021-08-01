@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #110c12;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header-nav {
+    display: flex;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+ul>img {
+    padding: 0 7px;
+}
+
+.header-img:hover {
+    box-shadow: 0 0 10px 0 #fde8e9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+h1 {
+    font-family: "DotGothic16";
+    font-size: 6em;
+    letter-spacing: -10px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 35px;
+    border: 1px solid #fde8e9;
+    border-radius: 20px;
+}
+
+input {
+    background-color: #110c12;
+    color: #fde8e9;
+}
+
+.input-container:hover {
+    box-shadow: 0 0 10px 0 #fde8e9;
+}
+
+.input-container>input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.button-container {
+    padding-top: 50px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #fde8e9;
+    height: 35px;
+    border: none;
+    margin: 0 5px;
+    padding: 0 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #fde8e9;
+}
+
+footer {
+    background-color: #fde8e9;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.moi {
+    display: flex;
+    justify-content: center;
+    padding: none;
+}
+
+@media (max-width: 630px) {
+    .input-container {
+        width: 90vw;
+    }
+}
+
+@media (max-height: 520px) {
+    body {
+        overflow-x: hidden;
+    }
+    section {
+        margin-bottom: 20px;
+    }
+    footer {
+        position: relative;
+    }
+}
+
+.mag {
+    padding-left: 5px;
+}
+
+.mic {
+    padding-right: 5px;
+}
+
+.git {
+    filter: invert();
+    height: 30px;
+}
