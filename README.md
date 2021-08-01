@@ -8,3 +8,5 @@ From a hands-on perspective the following skills have been introduced and reinfo
 - HTML
 - CSS
 - Chrome Developer Tools
+
+Viewable at: https://ophion4649.github.io/google-homepage/
