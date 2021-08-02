@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    margin: 5px;
+    margin: 0px;
     text-decoration: none;
     color: black;
     font-size: 30px;
@@ -101,12 +101,14 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
+    height: 35px;
 }
 
-.moi {
+.moi-nav {
     display: flex;
     justify-content: center;
-    padding: none;
+    padding: 0;
+    height: 0px;
 }
 
 @media (max-width: 630px) {
@@ -138,4 +140,8 @@ footer {
 .git {
     filter: invert();
     height: 30px;
+}
+
+h1:hover {
+    cursor: pointer;
 }
